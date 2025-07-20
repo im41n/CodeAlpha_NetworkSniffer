@@ -1,21 +1,21 @@
-# codeAlpha - Network Sniffer (Tâche 1)
-Ce projet est un sniffer réseau développé avec Python et la bibliothèque Scapy.  
-Il s'inscrit dans le cadre du stage de cybersécurité chez CodeAlpha.
+# CodeAlpha - Network Sniffer 
 
-Il permet de :
-- Capturer des paquets réseau en temps réel
-- Afficher les adresses IP source et destination
-- Identifier le protocole utilisé (TCP/UDP)
-- Afficher les ports utilisés
-- Lire le contenu du paquet (payload) si lisible
+This project is a simple **network sniffer** developed in Python using the **Scapy** library.  
+It was created as part of a cybersecurity internship with **CodeAlpha**.
 
-## Technologies utilisées
+The program allows you to:
+- Capture live network packets in real time
+- Display source and destination IP addresses
+- Identify the protocol used (TCP/UDP)
+- Show source and destination ports
+- Read the packet content (payload), if available
+
+## Technologies Used
 - Python 3.12
-- Scapy (`pip install scapy`)
-- Npcap (pour le sniffing réel sur Windows)
+- Scapy 
+- Npcap (for real packet sniffing on Windows)
 
-## Utilisation
-1. Ouvrir PowerShell **en mode administrateur**
-2. Aller dans le dossier du script
-3. Lancer :
-python task1.py
+## How to Use
+1. Open **PowerShell as Administrator**
+2. Navigate to the folder containing the script
+3. Run the script with: python task1.py
