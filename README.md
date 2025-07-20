@@ -1,4 +1,4 @@
-# CodeAlpha - Network Sniffer 
+# CodeAlpha - Network Sniffer  
 
 This project is a simple **network sniffer** developed in Python using the **Scapy** library.  
 It was created as part of a cybersecurity internship with **CodeAlpha**.
